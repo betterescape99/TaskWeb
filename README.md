@@ -33,27 +33,23 @@
 ```text
 app/
 ├─ api/
-│  ├─ auth/[...nextauth]/route.ts   # NextAuth 认证
-│  ├─ register/route.ts             # 注册 API
-│  ├─ tasks/route.ts                # 任务列表 GET / POST / DELETE
-│  └─ tasks/[id]/route.ts            # 单任务 PATCH / DELETE
-│
-├─ login/                            # 登录页
-├─ register/                         # 注册页
-├─ page.tsx                          # 首页 / 入口
-├─ providers.tsx                     # SessionProvider（客户端）
-│
+│  ├─ auth/[...nextauth]/route.ts
+│  ├─ register/route.ts
+│  ├─ tasks/route.ts
+│  └─ tasks/[id]/route.ts
+├─ login/
+├─ register/
+├─ page.tsx
+├─ providers.tsx
 lib/
-├─ prisma.ts                         # PrismaClient 单例
-│
+├─ prisma.ts
 zod/
-├─ task.ts                           # Zod Schema（Create / Patch）
-│
+├─ task.ts
 validators/
-├─ task.ts                           # 前端校验（validateTaskTitle 等）
-│
+├─ task.ts
 prisma/
-├─ schema.prisma                     # 数据模型
+├─ schema.prisma
+└─ migrations/
 └─ migrations/                       # Prisma 迁移文件
 
 ---
@@ -66,8 +62,7 @@ prisma/
 DATABASE_URL="mysql://USER:PASSWORD@HOST:PORT/DBNAME"
 NEXTAUTH_SECRET="replace-with-a-random-string"
 NEXTAUTH_URL="http://localhost:3000"
-
-
+```
 
 ## 本地运行
 
@@ -77,3 +72,4 @@ npm run dev
 
 ## 数据库迁移（本地）
 npx prisma migrate dev
+
