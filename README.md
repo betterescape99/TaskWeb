@@ -1,7 +1,6 @@
 # TaskWeb (Next.js + NextAuth + Prisma + MySQL)
 
 一个多用户任务板 Web 应用：支持注册 / 登录、任务 CRUD、搜索筛选、完成状态管理。  
-目标是跑通完整工程链路：前端交互 + 鉴权 + API + ORM + 数据库 + 部署上线。
 
 ---
 
@@ -65,11 +64,12 @@ NEXTAUTH_URL="http://localhost:3000"
 ```
 
 ## 本地运行
-
+```
 npm install
 npx prisma generate
 npm run dev
-
+```
 ## 数据库迁移（本地）
+```
 npx prisma migrate dev
-
+```
