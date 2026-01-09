@@ -1,9 +1,11 @@
-<img src="https://github.com/user-attachments/assets/10a087f0-b87b-4717-9885-a3048fd25c25" style="max-width: 800px; width: 100%; height: auto;" />
-<img src="https://github.com/user-attachments/assets/82e78385-d10a-4bc9-9e24-59f54059222a" style="max-width: 800px; width: 100%; height: auto;" />
-
 # TaskWeb (Next.js + NextAuth + Prisma + MySQL)
 
 一个多用户任务板 Web 应用：支持注册 / 登录、任务 CRUD、搜索筛选、完成状态管理。  
+
+---
+
+<img src="https://github.com/user-attachments/assets/10a087f0-b87b-4717-9885-a3048fd25c25" style="max-width: 800px; width: 80%; height: auto;" />
+<img src="https://github.com/user-attachments/assets/82e78385-d10a-4bc9-9e24-59f54059222a" style="max-width: 800px; width: 80%; height: auto;" />
 
 ---
 
