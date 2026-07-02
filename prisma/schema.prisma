@@ -1,5 +1,7 @@
 datasource db {
-  provider = "mysql"
+  provider = "sqlite"
+  // This URL is only used by Prisma CLI (db push, migrate).
+  // At runtime, the libSQL driver adapter handles the connection.
   url      = env("DATABASE_URL")
 }
 
